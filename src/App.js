@@ -28,39 +28,37 @@ function App() {
   const isLogin = true;
   return (
     <div className="App">
-      {isLogin && (
-        <>
-          <GenericNavbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/achievement" element={<Achievement />} />
-            <Route path="/bod" element={<BoardOfDirector />} />
-            <Route path="/intro" element={<Intro />} />
-            <Route path="/location" element={<Location />} />
-            <Route path="/network" element={<Network />} />
-            <Route path="/principal" element={<Principal />} />
-            <Route path="/teachers" element={<Teachers />} />
-            <Route path="/visionmission" element={<VisionMission />} />
-            <Route path="/base" element={<Base />} />
-            <Route path="/kindergarten" element={<Kindergarten />} />
-            <Route path="/plustwo" element={<PlusTwo />} />
-            <Route path="/secondary" element={<Secondary />} />
-            <Route path="/contactus" element={<ContactUs />} />
-            <Route path="/downloads" element={<Downloads />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/glimpses" element={<Glimpses />} />
-            <Route path="/newsevents" element={<NewsEvents />} />
-            <Route path="/specials" element={<Specials />} />
-            <Route path="/login" element={<AdminLogin />} />
-          </Routes>
-          <Footer />
-        </>
-      )}
-      {!isLogin && (
+      <>
+        <GenericNavbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/achievement" element={<Achievement />} />
+          <Route path="/bod" element={<BoardOfDirector />} />
+          <Route path="/intro" element={<Intro />} />
+          <Route path="/location" element={<Location />} />
+          <Route path="/network" element={<Network />} />
+          <Route path="/principal" element={<Principal />} />
+          <Route path="/teachers" element={<Teachers />} />
+          <Route path="/visionmission" element={<VisionMission />} />
+          <Route path="/base" element={<Base />} />
+          <Route path="/kindergarten" element={<Kindergarten />} />
+          <Route path="/plustwo" element={<PlusTwo />} />
+          <Route path="/secondary" element={<Secondary />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/downloads" element={<Downloads />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/glimpses" element={<Glimpses />} />
+          <Route path="/newsevents" element={<NewsEvents />} />
+          <Route path="/specials" element={<Specials />} />
+          <Route path="/login" element={<AdminLogin />} />
+        </Routes>
+        <Footer />
+      </>
+      {/* {!isLogin && (
         <>
           <Routes></Routes>
         </>
-      )}
+      )} */}
     </div>
   );
 }
