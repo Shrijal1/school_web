@@ -1,0 +1,16 @@
+$theme-colors: (
+  'info': tomato,
+  'danger': teal,
+  'primary':  #002366,
+  'light': #ede9e8
+  
+);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

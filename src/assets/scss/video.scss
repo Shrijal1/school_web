@@ -1,0 +1,21 @@
+.video_main{
+    border-radius: 10px;
+
+    video{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border: 1px solid #002366;
+        border-radius: 10px;
+    }
+}
+
+.dashboard_Vid_Container{
+    position: relative;
+    .dashboard_Video{
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+        position: relative;;
+}
+}
