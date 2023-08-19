@@ -1,4 +1,5 @@
-.card{
+.serviceContainer{
+    .card{
     cursor: pointer;
     transition: 600ms;
     background: linear-gradient(180deg, rgb(35, 52, 150) -0.1%, rgb(50, 39, 196) 25.1%, rgb(28, 133, 243) 49.6%, rgb(115, 181, 250) 74.5%, rgb(214, 239, 253) 99.3%);
@@ -7,19 +8,20 @@
     color: white;
     
 }
-.card:hover{
-    transform: scale(1.05);
-    transition: 600ms;
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-    background-position: 100% 100%;
-    color: black;
-    p{
-        color: #4a4a4b;
+    .card:hover{
+        transform: scale(1.05);
+        transition: 600ms;
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+        background-position: 100% 100%;
+        color: black;
+        p{
+            color: #4a4a4b;
+        }
+        
+        
     }
-    
-    
-}
 
-p{
-    color:#ffffff;
+    p{
+        color:#ffffff;
+    }
 }

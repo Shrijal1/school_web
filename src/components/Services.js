@@ -7,7 +7,7 @@ import "../assets/scss/services.scss";
 
 const Services = () => {
   return (
-    <div>
+    <div className="serviceContainer">
       <Container>
         <h2
           className="d-flex justify-content-center mt-5"
